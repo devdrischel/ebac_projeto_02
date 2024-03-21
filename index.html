@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Telefônica - Projeto 02 EBAC</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Agenda Online</h1>
+        </header>
+    </div>
+    <div class="container">
+        <div id="texto">
+            <h3>Nome</h3>
+            <h3>Telefone</h3>
+            <form id="form-info">
+                    <input id="name" type="text" required placeholder="Nome">
+                    <input id="number" type="tel" required placeholder="Número">
+                    <button type="submit">Salvar</button>
+                    <button type="reset">Apagar</button>
+            </form>
+        </div>
+            <div id="contatos">
+                <h3>Contatos Salvos</h3>
+                    <div id="tab">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>
+                                        Nome
+                                    </td>
+                                    <td>
+                                        Número
+                                    </td>
+                        </thead>
+                        <tbody id="table-body">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+    </body>
+    <footer id="footer">
+        <div>
+            <p>
+                Criado por Diana Drischel
+                <a href="www.linkedin.com/in/diana-drischel" title="LinkedIn Profile">
+                <img src="./images/linkedin.png">
+                </a>
+            </p>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</html>
